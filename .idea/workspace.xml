@@ -10,9 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37d1c5f6-3d21-4b5e-af3c-db96c15aafb5" name="Default Changelist" comment="还有点问题">
+    <list default="true" id="37d1c5f6-3d21-4b5e-af3c-db96c15aafb5" name="Default Changelist" comment="over">
+      <change afterPath="$PROJECT_DIR$/404 galaxy not found.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/chat.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +49,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\c9\Desktop\计算机网络\exp1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\c9\Desktop\计算机网络\exp1" />
       <recent name="C:\Users\c9\Desktop\计算机网络\exp1\user" />
     </key>
   </component>
@@ -69,8 +76,8 @@
       <module name="exp1" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i " />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/../exp1|$PROJECT_DIR$/client.go" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/web.go" />
       <package value="exp1" />
       <directory value="$PROJECT_DIR$" />
       <output_directory value="$PROJECT_DIR$/.." />
@@ -105,7 +112,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="还有点问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="还有点问题" />
+    <MESSAGE value="over" />
+    <option name="LAST_COMMIT_MESSAGE" value="over" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -123,26 +131,26 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="476" y="243" key="EnvironmentVariablesDialog/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606909033682" />
-    <state x="420" y="298" key="FileChooserDialogImpl" timestamp="1606903636349">
+    <state x="420" y="298" key="FileChooserDialogImpl" timestamp="1606997470821">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="420" y="298" key="FileChooserDialogImpl/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606903636349" />
-    <state width="1234" height="288" key="GridCell.Tab.0.bottom" timestamp="1606996459547">
+    <state x="420" y="298" key="FileChooserDialogImpl/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606997470821" />
+    <state width="1276" height="288" key="GridCell.Tab.0.bottom" timestamp="1606998558476">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1234" height="288" key="GridCell.Tab.0.bottom/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606996459547" />
-    <state width="1234" height="288" key="GridCell.Tab.0.center" timestamp="1606996459547">
+    <state width="1276" height="288" key="GridCell.Tab.0.bottom/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606998558476" />
+    <state width="1276" height="288" key="GridCell.Tab.0.center" timestamp="1606998558475">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1234" height="288" key="GridCell.Tab.0.center/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606996459547" />
-    <state width="1234" height="288" key="GridCell.Tab.0.left" timestamp="1606996459547">
+    <state width="1276" height="288" key="GridCell.Tab.0.center/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606998558475" />
+    <state width="1276" height="288" key="GridCell.Tab.0.left" timestamp="1606998558475">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1234" height="288" key="GridCell.Tab.0.left/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606996459547" />
-    <state width="1234" height="288" key="GridCell.Tab.0.right" timestamp="1606996459547">
+    <state width="1276" height="288" key="GridCell.Tab.0.left/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606998558475" />
+    <state width="1276" height="288" key="GridCell.Tab.0.right" timestamp="1606998558476">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1234" height="288" key="GridCell.Tab.0.right/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606996459547" />
+    <state width="1276" height="288" key="GridCell.Tab.0.right/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606998558476" />
     <state width="1234" height="356" key="GridCell.Tab.1.bottom" timestamp="1606909586691">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
@@ -163,9 +171,9 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="458" y="214" key="SettingsEditor/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606910008533" />
-    <state x="519" y="298" key="Vcs.Push.Dialog.v2" timestamp="1606996854621">
+    <state x="519" y="298" key="Vcs.Push.Dialog.v2" timestamp="1606998573230">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state x="519" y="298" key="Vcs.Push.Dialog.v2/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606996854621" />
+    <state x="519" y="298" key="Vcs.Push.Dialog.v2/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606998573230" />
   </component>
 </project>
