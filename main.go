@@ -12,47 +12,49 @@ import (
 
 func main() {
 	//1.建立监听端口
-	listen, err := net.ListenUDP("udp", &net.UDPAddr{
-		IP:   net.IPv4(0, 0, 0, 0),
-		Port: 2000, // Tom
-	})
+	upd_addr, err := net.ResolveUDPAddr("udp4", ":2001")
+	listen, err := net.ListenUDP("udp4", upd_addr)
 	if err != nil {
 		fmt.Printf("listen failed, err:%v\n", err)
 		return
 	}
-
+	defer listen.Close()
 	fmt.Println("listen Start...:")
 	//开启一个Goroutine，处理链接
-	go server(listen)
-	fmt.Println("listen Started")
+	fmt.Printf("listen Started at %v\n", listen.LocalAddr())
+	fmt.Println("Conn Established")
 
-	conn, err := net.Dial("udp", ":2000") // Jerry
-	if err != nil {
-		fmt.Printf("dial failed, err:%v\n", err)
-		return
-	}
-	fmt.Println("Conn Established...:")
-	fmt.Println("输入新消息")
-	reader := bufio.NewReader(os.Stdin)
-	fmt.Println("client Started...:")
+	//s, err := net.ResolveUDPAddr("udp4", ":2001")
+
 	for {
+		conn, err := net.Dial("udp4", ":2000") // Jerry
+		if err != nil {
+			fmt.Printf("dial failed, err:%v\n", err)
+			return
+		}
+		defer conn.Close()
+
+		reader := bufio.NewReader(os.Stdin)
+		fmt.Println("输入新消息:")
 		data, err := reader.ReadString('\n')
 		if err != nil {
 			fmt.Printf("read from console failed, err:%v\n", err)
 			break
 		}
-
 		data = strings.TrimSpace(data)
-		//传输数据到服务端
-		_, err = conn.Write([]byte(data))
-		if err != nil {
-			fmt.Printf("write failed, err:%v\n", err)
-			break
-		}
-	}
+		go func() {
 
+			_, err = conn.Write([]byte(data))
+			if err != nil {
+				fmt.Printf("write failed, err:%v\n", err)
+				return
+			}
+		}()
+		go server(listen)
+	}
 }
 
+//2.接收客户端的链接
 func server(listen *net.UDPConn) {
 	for {
 		//2.接收客户端的链接

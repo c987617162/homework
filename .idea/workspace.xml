@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="37d1c5f6-3d21-4b5e-af3c-db96c15aafb5" name="Default Changelist" comment="" />
+    <list default="true" id="37d1c5f6-3d21-4b5e-af3c-db96c15aafb5" name="Default Changelist" comment="还有点问题">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +27,9 @@
     </option>
   </component>
   <component name="GOROOT" path="G:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
   </component>
@@ -32,7 +47,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -76,6 +91,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="还有点问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="还有点问题" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
@@ -96,22 +127,22 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="420" y="298" key="FileChooserDialogImpl/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606903636349" />
-    <state width="1234" height="356" key="GridCell.Tab.0.bottom" timestamp="1606909586691">
+    <state width="1234" height="288" key="GridCell.Tab.0.bottom" timestamp="1606996459547">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1234" height="356" key="GridCell.Tab.0.bottom/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606909586691" />
-    <state width="1234" height="356" key="GridCell.Tab.0.center" timestamp="1606909586691">
+    <state width="1234" height="288" key="GridCell.Tab.0.bottom/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606996459547" />
+    <state width="1234" height="288" key="GridCell.Tab.0.center" timestamp="1606996459547">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1234" height="356" key="GridCell.Tab.0.center/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606909586691" />
-    <state width="1234" height="356" key="GridCell.Tab.0.left" timestamp="1606909586691">
+    <state width="1234" height="288" key="GridCell.Tab.0.center/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606996459547" />
+    <state width="1234" height="288" key="GridCell.Tab.0.left" timestamp="1606996459547">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1234" height="356" key="GridCell.Tab.0.left/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606909586691" />
-    <state width="1234" height="356" key="GridCell.Tab.0.right" timestamp="1606909586691">
+    <state width="1234" height="288" key="GridCell.Tab.0.left/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606996459547" />
+    <state width="1234" height="288" key="GridCell.Tab.0.right" timestamp="1606996459547">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="1234" height="356" key="GridCell.Tab.0.right/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606909586691" />
+    <state width="1234" height="288" key="GridCell.Tab.0.right/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606996459547" />
     <state width="1234" height="356" key="GridCell.Tab.1.bottom" timestamp="1606909586691">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
@@ -128,5 +159,13 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state width="1234" height="356" key="GridCell.Tab.1.right/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606909586691" />
+    <state x="458" y="214" key="SettingsEditor" timestamp="1606910008533">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="458" y="214" key="SettingsEditor/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606910008533" />
+    <state x="519" y="298" key="Vcs.Push.Dialog.v2" timestamp="1606996854621">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="519" y="298" key="Vcs.Push.Dialog.v2/0.0.2560.1080/2560.0.1536.864@0.0.2560.1080" timestamp="1606996854621" />
   </component>
 </project>
